@@ -1,0 +1,38 @@
+.wrapper{
+    color: black;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+ul{
+    list-style: none;
+    line-height: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 70%;
+}
+.gallery div{
+    display: block;
+    flex: 25%;
+    overflow: hidden;
+}
+.gallery div img{
+    max-width: 100%;
+    height: auto;
+}
+.gallery div img:hover{
+    transform: scaleX(1.3);
+}
